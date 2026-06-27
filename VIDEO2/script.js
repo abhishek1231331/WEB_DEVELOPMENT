@@ -1,0 +1,1 @@
+alert("Welcome to figma web dev course")
