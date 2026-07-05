@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* the specificity of selector is 1 */
+        h1{
+            color: aqua;
+        }
+       h1.yellow{
+        color: yellow;
+       }
+        .yellow{
+            color: yellow;
+        }
+        .cred{
+            color: red;
+        }
+        .cpurple{
+            color: purple;
+        }
+
+        /* this specificity of this selector is 10 */
+        a.harryclass.rohan-class[href]:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            CSS Specificity
+        </h1>
+    </div>
+
+
+    
+    <!-- Specificity
+    inline css>id selector> class or attribute selector> element selector>universal selector -->
+
+
+</body>
+</html>
