@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object-fit,object-cover</title>
+    <style>
+  .cont{
+    height: 488px;
+    width: 466px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    /* we have completed yr 49 videos this is what we were looking for yr */
+    background-position: top right;
+    background-image:url("https://www.copahost.com/blog/wp-content/uploads/2019/07/imgsize2.png") ;
+  }
+
+  img{
+    width: 466px;
+    height: 488px;
+    /* object-fit: cover; */
+    /* object-fit: fill; */
+    object-fit: scale-down;
+    object-position: 10px 20px;
+    /* talking about fittign height and width */
+  }
+    </style>
+</head>
+<body>
+    <div class="cont">
+<!-- <img src="https://www.copahost.com/blog/wp-content/uploads/2019/07/imgsize2.png" alt=""> -->
+    </div>
+</body>
+</html>
